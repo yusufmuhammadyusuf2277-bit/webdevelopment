@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model | Web Development Tutorials – YusufMTech</title>
+  <meta name="description" content="Learn the CSS box model including margin, border, padding, and content with simple examples.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>CSS Box Model</h1>
+  <p>Understanding how elements are sized and spaced</p>
+</header>
+
+<main>
+<section>
+
+  <h2>What is the CSS Box Model?</h2>
+  <p>
+    In CSS, every HTML element is treated as a box.
+    The CSS box model describes how the size and spacing of this box are calculated.
+  </p>
+
+  <h2>The Four Parts of the Box Model</h2>
+  <ul>
+    <li><strong>Content</strong> – The text or image inside the element</li>
+    <li><strong>Padding</strong> – Space between content and border</li>
+    <li><strong>Border</strong> – Surrounds the padding and content</li>
+    <li><strong>Margin</strong> – Space outside the border</li>
+  </ul>
+
+  <h2>Box Model Example</h2>
+  <pre>
+div {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 15px;
+}
+  </pre>
+
+  <h2>How the Size is Calculated</h2>
+  <p>
+    Total width = content + padding + border + margin
+  </p>
+
+  <h2>Box-Sizing Property</h2>
+  <p>
+    By default, padding and border are added to the width.
+    You can change this behavior using <code>box-sizing</code>.
+  </p>
+
+  <pre>
+* {
+  box-sizing: border-box;
+}
+  </pre>
+
+  <p>
+    Using <code>border-box</code> makes layouts easier and more predictable.
+  </p>
+
+  <p>
+    Next tutorial:
+    <a href="css-colors.html">CSS Colors</a>
+  </p>
+
+</section>
+</main>
+
+<footer>
+  <p><a href="index.html">← Back to Tutorials</a></p>
+  <p>
+    <a href="about.html">About</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="disclaimer.html">Disclaimer</a> |
+    <a href="contact.html">Contact</a>
+  </p>
+  <p>© 2026 web deb.YusufMTech</p>
+</footer>
+
+</body>
+</html>

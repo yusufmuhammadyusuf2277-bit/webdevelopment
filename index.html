@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Learn Web Development from scratch. HTML, CSS, and JavaScript tutorials for beginners.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Tutorials | YusufMTech</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+pre {
+  background: #f1f1f1;
+  padding: 15px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Web Development Tutorials</h1>
+  <p>Learn HTML, CSS & JavaScript from scratch</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#html">HTML</a>
+  <a href="#css">CSS</a>
+  <a href="#js">JavaScript</a>
+  <button onclick="toggleDark()">🌙 Dark Mode</button>
+</nav>
+
+<main>
+
+  <section id="html">
+  <h2>HTML Tutorials</h2>
+
+  <div class="card-grid">
+    <a href="html-introduction.html" class="card">Introduction to HTML</a>
+    <a href="html-elements.html" class="card">HTML Elements</a>
+    <a href="html-headings-paragraphs.html" class="card">Headings & Paragraphs</a>
+    <a href="html-links.html" class="card">HTML Links</a>
+    <a href="html-images.html" class="card">HTML Images</a>
+    <a href="html-lists.html" class="card">HTML Lists</a>
+    <a href="html-tables.html" class="card">HTML Tables</a>
+  </div>
+
+</section>
+
+  <section id="css">
+  <h2>CSS Tutorials</h2>
+
+  <div class="card-grid">
+    <a href="css-introduction.html" class="card">Introduction to CSS</a>
+    <a href="css-colors.html" class="card">CSS Colors</a>
+    <a href="css-box-model.html" class="card">CSS Box Model</a>
+  </div>
+</section>
+
+  <section id="js">
+  <h2>JavaScript Tutorials</h2>
+
+  <div class="card-grid">
+    <a href="js-introduction.html" class="card">Introduction to JavaScript</a>
+    <a href="js-variables.html" class="card">JavaScript Variables</a>
+  </div>
+</section>
+
+</main>
+
+<script>
+function toggleDark() {
+  document.body.classList.toggle("dark");
+}
+</script>
+<footer>
+  <p>
+    <a href="about.html">About</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="disclaimer.html">Disclaimer</a> |
+    <a href="contact.html">Contact</a>
+  </p>
+  <p>© 2026 web dev.YusufMTech</p>
+</footer>
+
+</body>
+</html>
