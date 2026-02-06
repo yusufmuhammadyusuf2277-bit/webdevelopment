@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #0a58ca;
+  background: #0073aa;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -23,7 +23,7 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #0a58ca;
+  color: #0073aa;
   font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ section {
 }
 
 h2 {
-  color: #0a58ca;
+  color: #0073aa;
 }
 
 ul {
@@ -62,7 +62,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #0a58ca;
+  color: #0073aa;
 }
 
 footer {
@@ -108,7 +108,7 @@ body.dark pre {
 .card {
   display: block;
   padding: 18px;
-  background: #0a58ca;
+  background: #0073aa;
   border-radius: 50px;
   text-decoration: none;
   color: #333;
